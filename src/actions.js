@@ -9,6 +9,7 @@ const setComplaint = (complaint) => {
 }
 
 export const makeRequest = (values) => dispatch => {
+  console.log(values);
   fetch('https://us-central1-delivery-form-api.cloudfunctions.net/api/report', {
     method: 'POST',
     headers:  {"Content-Type": "application/json; charset=utf-8"},

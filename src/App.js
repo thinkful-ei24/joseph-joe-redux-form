@@ -19,8 +19,7 @@ class App extends React.Component {
           )}>
             <h1>Complaints</h1>
             <div>
-              <MessageSuccess />
-              <MessageError />
+
             </div>
             <label htmlFor="trackingNumber">Tracking number</label><br/>
             <Field id="trackingNumber" name="trackingNumber" type="text" component="input" />
